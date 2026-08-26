@@ -5,7 +5,7 @@ Dokumentasi konfigurasi Debian GNU/Linux sebagai router menggunakan `iptables` (
 ## Topology
 
 - **Debian Router**
-  - `enp0s3` (WAN) → NAT, terhubung ke internet
+  - `enp0s3` (WAN) → NAT, Agar bisaterhubung ke internet
   - `enp0s8` (LAN) → Internal Network, terhubung ke Client
 - **Client**
   - `enp0s3` → Internal Network (sama dengan LAN Debian Router)
